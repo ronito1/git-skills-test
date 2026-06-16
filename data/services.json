@@ -1,14 +1,17 @@
 [
   {
     "name": "auth",
-    "owner": "platform"
+    "owner": "platform",
+    "priority": "high"
   },
   {
     "name": "billing",
-    "owner": "finance"
+    "owner": "finance",
+    "priority": "medium"
   },
   {
     "name": "search",
-    "owner": "growth"
+    "owner": "growth",
+    "priority": "low"
   }
 ]
