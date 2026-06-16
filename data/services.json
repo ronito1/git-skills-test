@@ -1,0 +1,14 @@
+[
+  {
+    "name": "auth",
+    "owner": "platform"
+  },
+  {
+    "name": "billing",
+    "owner": "finance"
+  },
+  {
+    "name": "search",
+    "owner": "growth"
+  }
+]
