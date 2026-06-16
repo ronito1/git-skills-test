@@ -5,6 +5,7 @@
 - Alex
 - Jordan
 - Priya
+- Aayush
 
 ## Goal
 
