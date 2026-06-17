@@ -17,6 +17,5 @@ Use [`docs/reviewer-checklist.md`](docs/reviewer-checklist.md) to verify the can
 
 ## Files they should edit
 
-- [`data/services.json`](data/services.json)
-- [`scripts/print-services.js`](scripts/print-services.js)
+- [`prompts/startup-analysis.txt`](prompts/startup-analysis.txt)
 - [`docs/candidate-notes.md`](docs/candidate-notes.md)

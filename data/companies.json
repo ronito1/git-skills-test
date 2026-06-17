@@ -1,0 +1,29 @@
+[
+  {
+    "name": "Tamara",
+    "summary": "Buy now, pay later platform serving merchants and consumers in the Middle East.",
+    "industry": "Fintech",
+    "founder_name": "Abdulmajeed Alsukhan",
+    "country": "Saudi Arabia",
+    "saudi_relevance_score": 10,
+    "confidence_score": 9
+  },
+  {
+    "name": "Stripe",
+    "summary": "Payments infrastructure company that helps businesses accept and manage online payments.",
+    "industry": "Fintech",
+    "founder_name": "Patrick Collison, John Collison",
+    "country": "United States",
+    "saudi_relevance_score": 5,
+    "confidence_score": 9
+  },
+  {
+    "name": "Careem",
+    "summary": "Ride-hailing and delivery platform with a strong footprint across the Middle East.",
+    "industry": "Mobility",
+    "founder_name": "Mudassir Sheikha, Magnus Olsson, Abdulla Elyas",
+    "country": "United Arab Emirates",
+    "saudi_relevance_score": 9,
+    "confidence_score": 8
+  }
+]

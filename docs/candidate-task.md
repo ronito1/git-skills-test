@@ -5,28 +5,42 @@ Complete the steps below using Git and GitHub.
 ## Task
 
 1. Clone the repository.
-2. Create a new branch from `main` named `feature/add-priority`.
-3. In [`data/services.json`](../data/services.json), add a `priority` field to every service.
-4. Use only these values for priority: `high`, `medium`, or `low`.
-5. In [`scripts/print-services.js`](../scripts/print-services.js), update the script so it prints the `priority` field for each service.
-6. Run:
-   `node scripts/print-services.js`
-7. In [`docs/candidate-notes.md`](candidate-notes.md), add:
+2. Create a new branch from `main` named `feature/improve-startup-analysis`.
+3. Open [`prompts/startup-analysis.txt`](../prompts/startup-analysis.txt).
+4. The current prompt is:
+   `Analyze the company and provide a summary.`
+5. Update the prompt so that it also returns:
+   - `industry`
+   - `founder_name`
+   - `country`
+   - `saudi_relevance_score`
+   - `confidence_score`
+6. Return the result as valid JSON.
+7. Use snake_case for all JSON field names.
+8. Ensure `saudi_relevance_score` and `confidence_score` are numbers from `1` to `10`.
+9. Update [`scripts/run-analysis.js`](../scripts/run-analysis.js) so it validates the JSON output and exits with an error if:
+   - any required field is missing
+   - any field name is not snake_case
+   - either score is not a number from `1` to `10`
+10. Run:
+   `node scripts/run-analysis.js "Tamara"`
+11. Confirm that the output includes the summary plus all five required fields in structured JSON.
+12. In [`docs/candidate-notes.md`](candidate-notes.md), add:
    - your full name
    - the branch name you used
    - a one-line summary of your change
-8. Commit your changes with a clear commit message.
-9. Push the branch to GitHub.
-10. Open a pull request into `main`.
-11. Merge the pull request.
-12. Send me the pull request link once done.
+13. Commit your changes with a clear commit message.
+14. Push the branch to GitHub.
+15. Open a pull request into `main`.
+16. Merge the pull request.
+17. Send me the pull request link once done.
 
 ## What this tests
 
 - creating a branch
-- editing tracked files
-- working with JSON data
-- updating a small Node.js script
+- updating a prompt file
+- following an output contract
+- updating a local validation script
 - verifying the result from the command line
 - staging and committing changes
 - pushing a branch
