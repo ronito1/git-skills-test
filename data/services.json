@@ -1,0 +1,14 @@
+[
+  {
+    "name": "payments",
+    "owner": "billing"
+  },
+  {
+    "name": "search",
+    "owner": "catalog"
+  },
+  {
+    "name": "notifications",
+    "owner": "engagement"
+  }
+]

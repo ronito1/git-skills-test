@@ -9,6 +9,7 @@ This repository is intentionally small. It is meant to test basic Git and GitHub
 3. Commit the changes to the feature branch.
 4. Push the branch and open a pull request.
 5. Merge the pull request back into `main`.
+6. Share the pull request link after the merge.
 
 ## What you should review
 
@@ -16,5 +17,6 @@ Use [`docs/reviewer-checklist.md`](docs/reviewer-checklist.md) to verify the can
 
 ## Files they should edit
 
-- [`TEAM.md`](TEAM.md)
+- [`data/services.json`](data/services.json)
+- [`scripts/print-services.js`](scripts/print-services.js)
 - [`docs/candidate-notes.md`](docs/candidate-notes.md)
