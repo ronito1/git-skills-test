@@ -18,10 +18,13 @@ Complete the steps below using Git and GitHub.
 6. Return the result as valid JSON.
 7. Use snake_case for all JSON field names.
 8. Ensure `saudi_relevance_score` and `confidence_score` are numbers from `1` to `10`.
-9. Update [`scripts/run-analysis.js`](../scripts/run-analysis.js) so it validates the JSON output and exits with an error if:
-   - any required field is missing
-   - any field name is not snake_case
-   - either score is not a number from `1` to `10`
+9. In [`scripts/run-analysis.js`](../scripts/run-analysis.js), add the `requiredKeys` constant with exactly these values:
+   - `summary`
+   - `industry`
+   - `founder_name`
+   - `country`
+   - `saudi_relevance_score`
+   - `confidence_score`
 10. Run:
    `node scripts/run-analysis.js "Tamara"`
 11. Confirm that the output includes the summary plus all five required fields in structured JSON.
@@ -40,7 +43,7 @@ Complete the steps below using Git and GitHub.
 - creating a branch
 - updating a prompt file
 - following an output contract
-- updating a local validation script
+- making a focused code change in a local runner
 - verifying the result from the command line
 - staging and committing changes
 - pushing a branch

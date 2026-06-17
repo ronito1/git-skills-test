@@ -24,10 +24,13 @@ Use this checklist to evaluate the candidate.
 - The prompt requires valid JSON output.
 - The prompt requires snake_case field names.
 - The prompt requires `saudi_relevance_score` and `confidence_score` to be numbers from `1` to `10`.
-- [`scripts/run-analysis.js`](../scripts/run-analysis.js) validates:
-  - required fields
-  - snake_case field names
-  - score ranges
+- [`scripts/run-analysis.js`](../scripts/run-analysis.js) defines `requiredKeys` as:
+  - `summary`
+  - `industry`
+  - `founder_name`
+  - `country`
+  - `saudi_relevance_score`
+  - `confidence_score`
 - Running `node scripts/run-analysis.js "Tamara"` returns valid JSON with all required fields.
 - [`docs/candidate-notes.md`](candidate-notes.md) exists and contains:
   - full name
@@ -38,6 +41,6 @@ Use this checklist to evaluate the candidate.
 
 - Ask why they chose their output structure.
 - Ask how they would handle missing or uncertain founder data.
-- Ask why they chose their validation approach in the runner.
+- Ask why `requiredKeys` is useful for validating structured output.
 - Ask them to explain the difference between `git fetch`, `git pull`, and `git push`.
 - Ask how they would update their branch if `main` changed before merge.

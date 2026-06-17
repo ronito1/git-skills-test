@@ -7,14 +7,10 @@ const companiesPath = path.join(__dirname, "..", "data", "companies.json");
 const prompt = fs.readFileSync(promptPath, "utf8").toLowerCase();
 const companies = JSON.parse(fs.readFileSync(companiesPath, "utf8"));
 const companyName = process.argv[2];
-const requiredKeys = [
-  "summary",
-  "industry",
-  "founder_name",
-  "country",
-  "saudi_relevance_score",
-  "confidence_score",
-];
+// Add the required JSON keys here after updating the prompt.
+
+
+
 
 if (!companyName) {
   console.error('Usage: node scripts/run-analysis.js "Company Name"');
