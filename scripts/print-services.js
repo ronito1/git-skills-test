@@ -1,5 +1,6 @@
 const services = require("../data/services.json");
 
 for (const service of services) {
-  console.log(`${service.name} (${service.owner})`);
+  console.log(`${service.name} (${service.owner}) - priority: ${service.prority}\n`);
 }
+

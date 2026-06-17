@@ -1,14 +1,17 @@
 [
   {
     "name": "payments",
-    "owner": "billing"
+    "owner": "billing",
+    "prority":"high"
   },
   {
     "name": "search",
-    "owner": "catalog"
+    "owner": "catalog",
+    "prority":"medium"
   },
   {
     "name": "notifications",
-    "owner": "engagement"
+    "owner": "engagement",
+    "prority":"low"
   }
 ]
