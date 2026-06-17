@@ -1,1 +1,13 @@
-Analyze the company and provide a summary.
+Analyze the company and return a valid JSON object.
+
+The JSON must include exactly these fields:
+-summary
+-industry
+-founder_name
+-country
+-saudi_relevance_score
+-confidence_score
+
+Rules:
+- Use snake_case for all JSON field names.
+- Ensure `saudi_relevance_score` and `confidence_score` are numbers from `1` to `10`.
