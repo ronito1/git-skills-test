@@ -18,4 +18,5 @@ Use [`docs/reviewer-checklist.md`](docs/reviewer-checklist.md) to verify the can
 ## Files they should edit
 
 - [`prompts/startup-analysis.txt`](prompts/startup-analysis.txt)
+- [`scripts/run-analysis.js`](scripts/run-analysis.js)
 - [`docs/candidate-notes.md`](docs/candidate-notes.md)
