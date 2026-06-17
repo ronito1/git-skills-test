@@ -30,10 +30,10 @@ const requiresStructuredOutput =
   prompt.includes("valid json") || prompt.includes("structured json");
 const requiredFields = [
   "industry",
-  "founder name",
+  "founder_name",
   "country",
-  "saudi relevance score",
-  "confidence score",
+  "saudi_relevance_score",
+  "confidence_score",
 ];
 const hasAllRequestedFields = requiredFields.every((field) => prompt.includes(field));
 const requiresSnakeCase = prompt.includes("snake_case");
